@@ -103,7 +103,63 @@
 		<p> 
 			Linkedin profile <a href= "https://www.linkedin.com/in/douglasaldermangraduate/"> Linkedin <a/>
 			<br></br>  </p>
-		
+			
+			<p> Based between Stoke on Trent and Market Drayton</p>
+
+			
+			
+
+<html>
+<body>
+
+<div id="googleMap1" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap2" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap3" style="width:400px;height:300px;"></div>
+<br>
+<div id="googleMap4" style="width:400px;height:300px;"></div>
+
+<script>
+function myMap() {
+  var mapOptions1 = {
+    center: new google.maps.LatLng( 52.9248 , - 2.4129),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };/*
+  var mapOptions2 = {
+    center: new google.maps.LatLng(51.508742,-0.120850),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.SATELLITE
+  };
+  var mapOptions3 = {
+    center: new google.maps.LatLng(51.508742,-0.120850),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+  };
+  var mapOptions4 = {
+    center: new google.maps.LatLng(51.508742,-0.120850),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  };  */
+  var map1 = new google.maps.Map(document.getElementById("googleMap1"),mapOptions1);
+  
+  //var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapOptions2);
+  //var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapOptions3);
+  //var map4 = new google.maps.Map(document.getElementById("googleMap4"),mapOptions4);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwFjlz3pzQow1S558x2l2uJycW4js1KL0&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
+			
+
 		</h4>
 		<!-- <-remove this to add contact form
 			<div class="two_column float_l">

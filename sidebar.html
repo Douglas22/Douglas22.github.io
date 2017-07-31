@@ -89,16 +89,15 @@
                             <li>
                                 <a href="blog-post.html">Blog Post</a>
                             </li>
-                        <!--
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="full-width.html">Full Width Page</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="sidebar.html">Sidebar Page</a>
                             </li>
                             <li>
@@ -111,8 +110,6 @@
                                 <a href="pricing.html">Pricing Table</a>
                             </li>
                         </ul>
-						tab on hold to add later
-						-->
                     </li>
                 </ul>
             </div>
@@ -121,79 +118,68 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+    <!-- Page Content -->
+    <div class="container">
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Sidebar Page
+                    
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Sidebar Page</li>
+                </ol>
             </div>
         </div>
+        <!-- /.row -->
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-		
-		<h3>
-				Please feel free to browse the sight.
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="index.html" class="list-group-item">Home</a>
+                    <a href="about.html" class="list-group-item">About</a>
+                    <a href="services.html" class="list-group-item">Services</a>
+                    <a href="contact.html" class="list-group-item">Contact</a>
+                    <a href="Web Templates.html" class="list-group-item">Web templates</a>
+                    <a href="Game Development.html" class="list-group-item">Game development</a>
+                    <a href="App Development.html" class="list-group-item">App development</a>
+                    <a href="3DModels.html" class="list-group-item">Store</a>
+                    <a href="portfolio-item.html" class="list-group-item">Dont show itam pages</a>
+                    <a href="blog-home-1.html" class="list-group-item">Blog Home</a>
+                    <a href="blog-home-2.html" class="list-group-item">Blog Home 2</a>
+                    <a href="blog-post.html" class="list-group-item">Blog Post</a>
+                    <a href="full-width.html" class="list-group-item">Full Width Page</a>
+                    <a href="sidebar.html" class="list-group-item active">Sidebar Page</a>
+                    <a href="faq.html" class="list-group-item">FAQ</a>
+                    <a href="404.html" class="list-group-item">404</a>
+                    <a href="pricing.html" class="list-group-item">Pricing Table</a>
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-md-9">
+                <h2>Section Heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
+            </div>
+        </div>
+        <!-- /.row -->
 
-		</h3>
-		
-		
-    </header>
+        <hr>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
     <!-- /.container -->
 
     <!-- jQuery -->
@@ -201,13 +187,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 
 </body>
 

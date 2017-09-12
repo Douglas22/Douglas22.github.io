@@ -29,11 +29,46 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 1000);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+
+
+
+age=20;
+	
+function myFunction() {	
+	
+	if (age>=21){
+		document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.png')";
+		age=20
+	}
+    else {
+     
+	 document.body.style.backgroundImage = "url('images/white back ground image of wind.png')";
+	 age=22;
+    }
+	}
+</script>
+<button type="button" onclick="myFunction()">Switch background image</button>
 
 </head>
 
 <body>
-	
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">

@@ -52,18 +52,23 @@ age=20;
 	
 function myFunction() {	
 	
-	if (age>=21){
+	if (age==20){
 		document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.png')";
-		age=20
+		age=21
 	}
-    else {
+    else if (age==21){
      
 	 document.body.style.backgroundImage = "url('images/white back ground image of wind.png')";
 	 age=22;
     }
+	else if (age==22){
+     
+	 document.body.style.backgroundImage = null;
+	 age=20;
+    }
 	}
 </script>
-<button type="button" onclick="myFunction()">Switch background image</button>
+<button type="button" onclick="myFunction()">Switch background</button>
 
 </head>
 

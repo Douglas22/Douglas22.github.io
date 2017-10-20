@@ -9,3 +9,7 @@ https://pixabay.com/en/animal-blue-pattern-danger-dark-21741/
 youtube used to host vidio content
 
 and a number of 3rd party APIs
+including but may not be limited to
+google maps
+and
+formspree

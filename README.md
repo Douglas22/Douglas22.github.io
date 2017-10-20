@@ -1,4 +1,5 @@
-# Douglas Developer was created by heavly modifying a template from black rock digital http://startbootstrap.com/template-overviews/modern-business/) witch was created by David Miller in the bootstrap frame work
+# Douglas Developer was created by heavly modifying a template from black rock digital 
+http://startbootstrap.com/template-overviews/modern-business/) witch was created by David Miller in the bootstrap frame work
 
 ## Copyright and License
 Origionaly Blackrock Digital released the origional under the MIT Licence

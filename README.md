@@ -1,27 +1,6 @@
-# [Douglas Developer](http://startbootstrap.com/) - [Modern Business](http://startbootstrap.com/template-overviews/modern-business/)
-
-[Modern Business](http://startbootstrap.com/template-overviews/modern-business/) is a multipurpose, full website template for [Bootstrap](http://getbootstrap.com/) created by [Douglas Developer](http://startbootstrap.com/). This template includes 17 unique HTML pages and a working PHP contact form.
-
-## Getting Started
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Douglas Developer](http://startbootstrap.com/template-overviews/modern-business/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-modern-business.git`
-* Fork the repo
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-modern-business/issues) here on GitHub or leave a comment on the [template overview page at Douglas Developer](http://startbootstrap.com/template-overviews/modern-business/).
-
-## Creator
-
-Douglas Developer was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Douglas Developer is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+# Douglas Developer was created by heavly modifying a template from black rock digital http://startbootstrap.com/template-overviews/modern-business/) witch was created by David Miller in the bootstrap frame work
 
 ## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-modern-business/blob/gh-pages/LICENSE) license.
+Origionaly Blackrock Digital released the origional under the MIT Licence
+The MIT License (MIT) https://github.com/BlackrockDigital/startbootstrap-modern-business/blob/gh-pages/LICENSE
+so you can still use the template this is deveved from under that licence

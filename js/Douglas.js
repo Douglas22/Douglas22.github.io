@@ -1,4 +1,52 @@
 
+        
+        
+        
+        NBG=1;
+            
+        function myFunction() {	
+            
+            if (NBG==1){
+                document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.jpg')";
+                NBG+=1;
+            }
+            else if (NBG==2){
+             
+             document.body.style.backgroundImage = "url('images/white back ground image of wind.jpg')";
+             NBG+=1;
+            }
+            else if (NBG==3){
+             
+             document.body.style.backgroundImage = null;
+             NBG+=1;
+            }
+            else if (NBG==4){
+             
+             document.body.style.backgroundImage = null;
+             NBG=1;
+            }
+            }
+            /*
+            switch(new myFunction())
+            {
+                case 1:
+                document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.jpg')";
+                NBG+=1;
+                break;
+
+                case 2:
+                document.body.style.backgroundImage = "url('images/white back ground image of wind.jpg')";
+                NBG+=1;
+                break;
+            }
+            
+            
+            */
+            
+
+//possible additions
+            /* timer mabey?
+             
         function startTime() {
             var today = new Date();
             var h = today.getHours();
@@ -13,28 +61,6 @@
         function checkTime(i) {
             if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
             return i;
-        }
-        
-        
-        
-        age=20;
-            
-        function myFunction() {	
-            
-            if (age==20){
-                document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.jpg')";
-                age=21
-            }
-            else if (age==21){
-             
-             document.body.style.backgroundImage = "url('images/white back ground image of wind.jpg')";
-             age=22;
-            }
-            else if (age==22){
-             
-             document.body.style.backgroundImage = null;
-             age=20;
-            }
-            }
+        }*/
         
         

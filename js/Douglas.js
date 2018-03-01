@@ -1,46 +1,40 @@
 
         
-        
-        
-        NBG=1;
-            
-        function myFunction() {	
-            
-            if (NBG==1){
+var AwesomeBGI = [null ,"url('images/fire.jpg')" 
+, null , "url('images/jellyfish.jpg')" , null ] ;
+
+var AwesomeBGC = ["#333333" , null , "#228822" , null , "darkblue" , null] ;
+NBG = 0 ;
+function myFunction() 
+{   
+    document.body.style.backgroundColor = AwesomeBGC[NBG];
+    document.body.style.backgroundImage = AwesomeBGI[NBG];
+    //p.style.color='red';
+                     
+    NBG++ ;	
+    if (NBG >= 6){
+        NBG = 0;
+    }
+    
+}
+            /* previose iterations keeped
+            NBG++ ;	
+            switch(NBG)
+            { 
+                case  1:
                 document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.jpg')";
-                NBG+=1;
-            }
-            else if (NBG==2){
-             
-             document.body.style.backgroundImage = "url('images/white back ground image of wind.jpg')";
-             NBG+=1;
-            }
-            else if (NBG==3){
-             
-             document.body.style.backgroundImage = null;
-             NBG+=1;
-            }
-            else if (NBG==4){
-             
-             document.body.style.backgroundImage = null;
-             NBG=1;
-            }
-            }
-            /*
-            switch(new myFunction())
-            {
-                case 1:
-                document.body.style.backgroundImage = "url('images/white back ground image of tiny screws.jpg')";
-                NBG+=1;
                 break;
 
-                case 2:
-                document.body.style.backgroundImage = "url('images/white back ground image of wind.jpg')";
-                NBG+=1;
+                case  2:
+                document.body.style.backgroundImage = null;
+                document.body.style.backgroundColor = "darkblue";
                 break;
+                case 3:
+                document.body.style.backgroundImage = null;
+                document.body.style.backgroundColor = "#111111";
+                NBG=0;
+                //used for debuging alert(AwesomeBGI[NBG]);
             }
-            
-            
             */
             
 

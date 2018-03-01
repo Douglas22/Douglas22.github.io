@@ -1,4 +1,4 @@
-# Douglas Developer was made posible by the following
+# Home was made posible by the following
 
 * David Miller/Black rock digital for the MIT licenced bootstrap theme
 http://startbootstrap.com/template-overviews/modern-business/ 

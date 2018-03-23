@@ -17,7 +17,7 @@ function myFunction()
     }
     
 }
-            /* previose iterations keeped
+            /* previous iterations keeped
             NBG++ ;	
             switch(NBG)
             { 
@@ -33,13 +33,13 @@ function myFunction()
                 document.body.style.backgroundImage = null;
                 document.body.style.backgroundColor = "#111111";
                 NBG=0;
-                //used for debuging alert(AwesomeBGI[NBG]);
+                //used for debugging alert(AwesomeBGI[NBG]);
             }
             */
             
 
 //possible additions
-            /* timer mabey?
+            /* timer maybe?
              
         function startTime() {
             var today = new Date();

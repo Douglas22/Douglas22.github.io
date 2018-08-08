@@ -1,7 +1,7 @@
 
 #My websight made use of the following
 
-* David Miller/Black rock digital for a MIT licenced bootstrap template
+* David Miller/Black rock digital for a MIT licenced bootstrap starter template
 http://startbootstrap.com/template-overviews/modern-business/ 
 
 * Pixabay for some of the images
